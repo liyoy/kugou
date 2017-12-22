@@ -1,0 +1,67 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  background-color: #0c8ed9;
+  //background-color: #fff;
+  box-shadow:0 1px 10px rgba(44, 50, 59, 0.4);
+  .logo-container {
+    /* border-bottom: 1px solid #2c323b0d; */
+    display: flex;
+    padding: 15px 15px 10px;
+    overflow: hidden;
+    justify-content:space-between;
+    border-bottom:1px solid rgba(0, 132, 208, 0.45);
+  }
+  .logo{
+    height: 25px;
+  }
+  .head-search{
+    background: url(http://static.kgimg.com/public/root/images/search.png) no-repeat;
+    height: 20px;
+    vertical-align: -webkit-baseline-middle;
+    display: block;
+    margin: 9px 0 0 9px;
+    width: 16px;
+    height: 16px;
+    background-position: -40px -56px;
+    cursor: pointer;
+  }
+  .header-nav{
+    //background: #2c323b;
+    background-color: #0c8ed9;
+  }
+
+  .mint-navbar{
+    background: none;
+  }
+  .mint-tab-item-label{
+    font-size: 16px;
+  }
+  .mint-navbar{
+    .mint-tab-item{
+      color: #ffffffa3;
+      text-decoration:none;
+      cursor: pointer;
+      padding: 14px;
+      &:hover{
+        background-color: #0c8ed9;
+      }
+    }
+    .mint-tab-item.is-selected{
+      background-color: #0c8ed9;
+      color: #fff;
+      text-shadow: 0px 0px 30px #fff;
+      border-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+
+}
+.container{
+  max-width: 600px;
+  margin: auto;
+}
+
